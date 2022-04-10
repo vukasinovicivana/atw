@@ -1,0 +1,367 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.cistac {
+	clear: both;
+}
+body
+{
+	width:100%;
+	height:100%;
+	font-style:italic;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+#omot {
+	width:100%;
+	height:auto;
+}
+/* zaglavlje */	
+
+#okvir {
+	width: 1200px;
+	margin: 0px auto;
+}
+	
+#zaglavlje {
+	width: 100%;
+	height:90px;
+	position: fixed;
+	top:0px;
+	left: 0px;
+	background-color:black;
+	opacity:50%;
+}
+
+#logo {
+	float: left;
+	width:170px;
+	height:90px;
+}
+#logo1 {
+	height:90px;
+	border-radius:40%;
+}
+
+#meni {
+	float: right;
+	height:90px;
+	
+}
+
+/* horizontalna lista */
+
+#meni li {
+	float: left;
+	display: block;
+	text-align: center;
+	width: 100px;
+	margin: 30px 20px;
+}
+#meni li a:hover{	
+    color:#d3a07a;	
+    font-weight: bold;
+}
+
+#meni ul li a {
+	font-size: 25px;
+	color:white;
+}
+
+
+/* slajder */
+
+#slajder {
+	width:100%;
+	height:535px;
+	margin-top: 90px ;
+	padding: 50px 0px;
+	background-image: url('../img/slajder1.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+	background-size:cover;
+	
+}
+#pIndex {
+	width:50%;
+	text-align:center;
+	position:apsolute;
+	top:30%;
+	margin:130px auto;
+	font-size: 34px;
+	background: rgb(0, 0, 0); 
+	background: rgba(0, 0, 0, 0.5); 
+	color: #f1f1f1;
+	border-radius:4px;
+	padding: 2% 0%;
+	z-index: 1;
+}
+  
+
+/* sadrzaj */
+
+#sadrzaj {
+	width:100%;
+	height:auto;
+	
+	
+	
+}
+
+#k1 {
+	width:100%;
+	height:450px;
+	background-color:white;
+	
+}
+
+#kb1 {
+	width:30%;
+	height:auto;
+	float:left;
+	margin:30px;
+	border-radius:3%;
+	
+}
+#kb1 img {
+	border-radius:3%;
+}
+#kb2 {
+	width:20%;
+	height:auto;
+	float: left;
+	margin: 0px 30px;
+	
+}
+
+#naslov {
+	width:50%;
+	height:50px;
+	margin:15px auto;
+	text-align:center;
+}
+
+#tekst1 {
+	width:860px;
+	height:auto;
+	margin:30px auto;
+	font-size:20px;
+	text-align:justify;
+
+}
+
+#tekst1 p{
+	width: 95%;
+	height:auto;
+	float:right;
+	box-sizing: border-box;
+}
+
+.maloDugme{	
+    padding:2px 14px;
+    font-size:20px;
+    color:#eaebef;
+    border: 0px;	
+    border-radius: 4px;
+    background-color:#d3a07a; 
+	float: right;
+}
+
+
+
+#k2 {
+	width:100%;
+	height: auto;
+	background-color:black;
+	color:white;
+}
+
+#promo_naslov {
+	width:50%;
+	height:60px;
+	margin:0px auto;
+	text-align:center;
+	
+	
+}
+h1 {
+	display:inline-block;
+	
+}
+
+#promo {
+	width:100%;
+	height: auto;
+}
+.dinamickeSlike{
+	width: 27%;
+	height: auto;
+	padding:0% 2.8%;
+	border-radius: 50%;
+	float: left;
+	margin-bottom:20px;
+}
+
+footer{
+	width:100%;
+	height:auto;
+}
+
+#futer {
+	width:1200px;
+	margin:0px auto;
+	height:120px;
+}
+#drMr{
+	width:450px;
+	height:auto;
+	float:left;
+	margin-top:40px;
+	
+}
+#drMr a{
+	font-size:35px;
+	color:#0040ff;
+	padding:10px;
+	
+}
+#drMr a:hover {
+	color:#d3a07a;	
+    font-weight: bold;
+}
+#drMr #dok {
+	font-size:20px;
+	color:#0040ff;
+}
+#autor {
+	width:270px;
+	height:auto;
+	float:right;
+	font-size:20px;
+	color:#0040ff;
+	margin-top:40px;
+}
+
+
+
+/*GALERIJA */
+
+
+.gallery{
+	width: 90%;
+	margin: 10px auto;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-around ;
+	margin-top:100px;
+	
+
+}
+.gallery a{
+    width: 400px;
+    height:250px;
+    margin-top:4px;
+    margin-bottom:20px;
+}
+    
+.gallery img{
+    width: 400px;
+    height:250px;}
+
+
+/*autor*/
+
+#oautoru {
+    width:30%;
+    margin:10px auto;
+}
+
+#oautoru p {
+    font-size:23px;
+}
+
+#oautoru{
+	width:900px;
+	height:500px;
+	margin:0px auto;
+}
+#slikaautor {
+	width:370px;
+	height:470px;
+	float:left;
+	margin-top:10px;
+}
+#tekstautor {
+	width:450px;
+	height:250px;
+	float:right;
+	margin-top:55px;
+}
+
+
+
+/*rezervacije*/
+
+#centar {
+    width: 80%;
+	margin: auto;
+
+}
+
+#formaDiv{
+	margin: 50px auto;
+
+	width: 60%;
+	text-align: center;
+}
+
+#formaDiv h1{
+	font-size: 35px;
+}
+
+
+#forma{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+#forma label{
+	font-size: 24px;
+	margin-top:10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.tekstPolja{
+	height: 30px;
+	border-radius: 2px;
+	text-align: center;
+	font-family: 'Courgette', cursive;
+	font-size: 15px;
+}
+
+#ddlBrojLjudi{
+	font-family: 'Courgette', cursive;
+	height: 30px;
+	border-radius: 2px;
+}
+#zona input{
+	margin: auto;
+}
+.taster{
+	width: 30%;
+	height: 40px;
+	margin: auto;
+	margin-top: 10px;
+	border-radius: 2px;
+	font-size: 20px;
+	font-family: 'Courgette', cursive;
+	color: white;
+	background-color: black;
+}
